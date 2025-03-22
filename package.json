@@ -1,8 +1,8 @@
 {
   "name": "jp.illusive-isc.scale-adjuster-manager",
-  "version": "1.0.0",
-  "displayName": "IllScaleAdjusterManager",
-  "description": "IllScaleAdjusterManager",
+  "version": "1.0.1",
+  "displayName": "ScaleAdjusterManager",
+  "description": "ScaleAdjusterManager",
   "unity": "2022.3",
   "author": {
     "name": "illusive_isc",
