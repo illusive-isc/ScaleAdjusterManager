@@ -90,7 +90,8 @@ namespace jp.illusive_isc
                 EditorGUILayout.EndHorizontal();
 
                 EditorGUILayout.BeginVertical("box");
-                EditorGUILayout.LabelField("Scale Adjuster List");
+                if (script.scaleAdjusterMainList.Count() > 0)
+                    EditorGUILayout.LabelField("Scale Adjuster List");
                 SyncScaleAdjuster(mergeInfo.Value);
                 EditorGUILayout.EndVertical();
                 EditorGUILayout.EndVertical();
