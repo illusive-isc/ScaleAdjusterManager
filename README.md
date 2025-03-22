@@ -8,6 +8,7 @@
 
 ②作成されたScaleAdjusterManagerの値を編集
 　体のScale AdjusterをコピーをクリックすることでScaleAdjusterManagerを表示している間は体と衣装のScaleAdjusterが同期します。
+
 　また、サイズを少し大きくしたい場合などがあるとおもうので各項目のチェックボックスにチェックを入れることで個別に設定することも可能です。
  
 ![image](https://github.com/user-attachments/assets/23f80b62-1a60-4a42-9bf7-e8fa20e9b943)
