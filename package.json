@@ -1,0 +1,15 @@
+{
+  "name": "jp.illusive-isc.scale-adjuster-manager",
+  "version": "1.0.0",
+  "displayName": "IllScaleAdjusterManager",
+  "description": "IllScaleAdjusterManager",
+  "unity": "2022.3",
+  "author": {
+    "name": "illusive_isc",
+    "url": "https://illusive_isc.jp"
+  },
+  "url": "https://github.com/illusive-isc/ScaleAdjusterManager",
+  "vpmDependencies": {
+    "nadena.dev.ndmf": ">=1.5.0"
+  }
+}

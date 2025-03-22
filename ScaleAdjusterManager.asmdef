@@ -1,0 +1,16 @@
+{
+    "name": "jp.illusive_isc.ScaleAdjusterManager",
+    "rootNamespace": "jp.illusive_isc",
+    "references": [
+        "nadena.dev.modular-avatar.core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
