@@ -23,13 +23,13 @@ namespace jp.illusive_isc
                 script.scaleAdjusterMainList = new();
                 script.mergeArmatureObjList = new();
                 avatarRoot = script.transform.root;
+                script.scaleAdjusterSetupList = SetupScaleList();
             }
 
             armature = avatarRoot
                 .GetComponent<Animator>()
                 .GetBoneTransform(HumanBodyBones.Hips)
                 .parent;
-            script.scaleAdjusterSetupList = SetupScaleList();
             RefreshLists();
         }
 
@@ -231,7 +231,10 @@ namespace jp.illusive_isc
                 {
                     info.scaleAdjuster.Add(
                         avatarAdjuster.Key,
-                        new IllScaleAdjusterManager.MAScaleAdjusterInfo(null, false)
+                        new IllScaleAdjusterManager.MAScaleAdjusterInfo(
+                            null,
+                            !avatarAdjuster.Value.Scale.Equals(scaleAdjuster.Scale)
+                        )
                     );
                 }
                 Undo.RecordObject(scaleAdjuster, "Sync Scale Adjuster");
