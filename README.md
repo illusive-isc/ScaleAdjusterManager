@@ -3,6 +3,7 @@
 ## インストール方法
 
 下記URLよりScaleAdjusterManagerをVCCに登録してください
+
 https://illusive-isc.github.io/vpm-repos/
 
 ## 使い方
