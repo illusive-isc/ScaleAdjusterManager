@@ -2,11 +2,12 @@ using System;
 using System.Collections.Generic;
 using nadena.dev.modular_avatar.core;
 using UnityEngine;
+using VRC.SDKBase;
 
 namespace jp.illusive_isc
 {
     [AddComponentMenu("ScaleAdjusterManager")]
-    public class IllScaleAdjusterManager : MonoBehaviour
+    public class IllScaleAdjusterManager : MonoBehaviour, IEditorOnly
     {
         public Dictionary<string, MAScaleAdjusterSetupInfo> scaleAdjusterSetupList;
         public Dictionary<string, ModularAvatarScaleAdjuster> scaleAdjusterMainList;
